@@ -117,6 +117,7 @@ const Home: NextPage = () => {
             mt={48}
             size='xl'
             variant='gradient'
+            sx={{ padding: '0 80px' }}
             gradient={{
               from: theme.colors.violet[5],
               to: theme.colors.cyan[5],
@@ -202,7 +203,7 @@ const Home: NextPage = () => {
           style={{ gap: 30 }}
         >
           <div className={classes.center}>
-            <Image width={480} height={480} src='/assets/map.png' alt='' />
+            <Image width={480} height={480} src='/assets/map.PNG' alt='' />
           </div>
           <div>
             <Text
